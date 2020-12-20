@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace freedomtoinsure.IServices
 {
-    interface IUserAuthentication
+   public interface IUserAuthentication
     {
         string Authenticate(Authentication loginData);
     }
